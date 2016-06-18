@@ -1,8 +1,9 @@
 import cars from '../cars-dict'
 /**
- * [description]
- * @param  {[type]} id [description]
- * @return {[type]}    [description]
+ *	reduces a store
+ * @param  {Array} store - current store
+ * @param  {Object} action - an action to perform
+ * @return {Array} new store 
  */
 const createSelectsArray = (store, action) => {
   var item;

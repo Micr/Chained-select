@@ -1,7 +1,7 @@
 import { createStore } from 'redux'
 import { connect } from 'react-redux'
 import setId from '../actions'
-import { ChainedSelect } from '../components/ChainedSelect'
+import ChainedSelect from '../components/ChainedSelect'
 
 const mapStateToProps = (state) => {
   return {
